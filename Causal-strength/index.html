@@ -1,1 +1,103 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>重定向到张三的仓库</title>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="0; url=https://github.com/zhangsan">
+    <link rel="canonical" href="https://github.com/zhangsan">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            line-height: 1.6;
+            color: #24292e;
+        }
+        .container {
+            text-align: center;
+            padding: 60px 20px;
+        }
+        h1 {
+            color: #0969da;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #0969da;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 500;
+            margin: 10px;
+            transition: background-color 0.2s;
+        }
+        .button:hover {
+            background-color: #0550ae;
+        }
+        .info-box {
+            background-color: #f6f8fa;
+            border: 1px solid #d0d7de;
+            border-radius: 6px;
+            padding: 20px;
+            margin: 30px 0;
+        }
+        code {
+            background-color: #f6f8fa;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 正在重定向到张三的GitHub仓库...</h1>
+        
+        <div class="info-box">
+            <p><strong>目标地址:</strong> <code>https://github.com/zhangsan</code></p>
+            <p><strong>成员:</strong> 张三 (John Zhang)</p>
+            <p><strong>角色:</strong> XAI 因果推理研究员</p>
+            <p><strong>主要项目:</strong> 因果推断算法、模型解释性工具</p>
+        </div>
+        
+        <p>如果页面没有在3秒内自动跳转，请手动点击：</p>
+        
+        <div>
+            <a href="https://github.com/zhangsan" class="button">
+                🔗 访问张三的GitHub主页
+            </a>
+            <a href="https://github.com/zhangsan?tab=repositories" class="button">
+                📁 查看所有仓库
+            </a>
+            <a href="../" class="button">
+                ↩️ 返回门户主页
+            </a>
+        </div>
+        
+        <p style="margin-top: 30px; color: #57606a; font-size: 14px;">
+            正在跳转到：https://github.com/zhangsan<br>
+            重定向时间：<span id="countdown">3</span>秒
+        </p>
+    </div>
+    
+    <script>
+        // 倒计时显示
+        let seconds = 3;
+        const countdown = document.getElementById('countdown');
+        const timer = setInterval(() => {
+            seconds--;
+            countdown.textContent = seconds;
+            if (seconds <= 0) {
+                clearInterval(timer);
+            }
+        }, 1000);
+        
+        // 备用重定向，如果meta refresh失效
+        setTimeout(() => {
+            window.location.href = "https://github.com/zhangsan";
+        }, 3000);
+    </script>
+</body>
+</html>
