@@ -5,5 +5,5 @@ We provide the XAI/causal inference methods for ESM diagnosis and evaluation.
 
 ## links of methods
 
-### Feini Huang
-- [Causal LAO coupling](https://github.com/feinihuang9554-max/Causal-strength-for-Land-Atmosphere-Ocean-coupling.git)
+### Causal LAO coupling
+- [Feini Huang](https://github.com/feinihuang9554-max/Causal-strength-for-Land-Atmosphere-Ocean-coupling.git)
