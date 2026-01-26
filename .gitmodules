@@ -3,3 +3,6 @@
 	path = Causal_Coupling_Strength
 	url = https://github.com/feinihuang9554-max/Causal-strength-for-Land-Atmosphere-Ocean-coupling.git
 
+[submodule "Interpretable-CNN"]
+	path = Interpretable-CNN
+	url = https://github.com/feinihuang9554-max/Interpretable-CNN-for-nonlinear-sensitivity.git
