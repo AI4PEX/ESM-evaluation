@@ -1,6 +1,4 @@
 [submodule "Causal_Coupling_Strength"]
 	path = Causal_Coupling_Strength
 	url = https://github.com/feinihuang9554-max/Causal-strength-for-Land-Atmosphere-Ocean-coupling.git
-[submodule "1111"]
-	path = 1111
-	url = https://github.com/feinihuang9554-max/Causal-strength-for-Land-Atmosphere-Ocean-coupling.git
+
