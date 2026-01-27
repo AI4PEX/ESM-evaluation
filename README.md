@@ -1,4 +1,4 @@
-# XAI-Causality-for-evaluation
+# ESM evaluation
 ML4ESM Evaluation Diagnostics
 This repository provides machine learning-based evaluation tools for Earth System Models, developed under WP4 of the AI4PEX project.
 
