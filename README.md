@@ -33,10 +33,6 @@ The codebase implements state-of-the-art explainable AI (XAI), causal discovery,
 - Causal model weighting and intercomparison
 - DMDc for forced response estimation in ESMs
 - HybridESMBench
-- Process-specific diagnostics for:
-    - Subtropical low-cloud feedbacks (atmosphere)
-    - Ocean heat and carbon uptake (ocean)
-    - Terrestrial water-carbon processes (land)
 
 ## License
 
