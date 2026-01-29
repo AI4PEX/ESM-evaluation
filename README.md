@@ -1,35 +1,52 @@
-# ESM evaluation
-ML4ESM Evaluation Diagnostics
-This repository provides machine learning-based evaluation tools for Earth System Models, developed under WP4 of the AI4PEX project.
 
-# Overview
-The codebase implements state-of-the-art explainable AI (xAI) and causal discovery methods for evaluating ML-enhanced Earth system model components. These diagnostics enable process-oriented assessment of model performance across atmosphere, ocean, and land domains.
+# ESM Evaluation Diagnostics
 
+This repository provides machine learning-based evaluation tools for Earth System Models (ESMs), developed under WP4 of the AI4PEX project.
 
-# WP4 ESM evaluation
+The codebase implements state-of-the-art explainable AI (XAI), causal discovery, and data-driven interpretable analysis methods for evaluating ML-enhanced Earth system model components. It supports process-oriented assessment of model performance across atmosphere, ocean, and land domains, while enabling direct comparisons with observational datasets. These methods provide insights into ESM and observation data, facilitating rigorous diagnostics and a deeper understanding of model behavior.
 
-## Key Features
+## 🚀 Getting Started
 
-### Structual Causal Model techniques for interpreting model coupling behavior 
-- [Causal Land-Atmosphere-Ocean coupling strength](https://github.com/feinihuang9554-max/Causal-strength-for-Land-Atmosphere-Ocean-coupling.git)
-
-### Joint XAI for nonlinear sensitivity of environmental factors to target
-- [Cloud feedback sensitivity](https://github.com/feinihuang9554-max/Interpretable-CNN-for-nonlinear-sensitivity.git)
+- Browse the available methods.  
+- Follow the links to each submodule for setup and usage.  
+- Ask the suggested contacts for access to submodules which are currently private.
 
 
-### Upcoming
-- Causal discovery methods to identify bias sources and key drivers
-- Representation learning for comparative model evaluation
-Process-specific diagnostics for:
-- Subtropical low-cloud feedbacks (atmosphere)
-- Ocean heat and carbon uptake (ocean)
-- Terrestrial water-carbon processes (land)
+## 📂 Available Methods
 
-### Applications
-- Compare ML-enhanced ESM prototypes against standard configurations
-- Evaluate ML-based parameterizations from WP2 developments
-- Analyze cloud radiative feedbacks, ocean eddy parameterizations, and land surface processes
-- Support implementation in ESMValTool via WP8 integration
+- [Interpretable Analysis of Climate Scenarios Using Dynamic Mode Decomposition with Control](https://github.com/nmank/DMDc4Climate)  
+  ![python](https://img.shields.io/badge/python-yellow) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  [![paper](https://img.shields.io/badge/paper-gray)](https://doi.org/10.1017/eds.2025.8) 
+    - [Quickstart](https://github.com/nmank/DMDc4Climate/blob/main/getting_started.ipynb) 
 
-### Development
-This work is led by METO and UVEG, with contributions from multiple partners including MPG-BGC, ULUND, DLR, UNIL, UREAD, and UNIVLEEDS. The tools are designed to advance the model evaluation cycle using cutting-edge AI methods.
+- [Kernel Taylor Diagram for Earth System Model Evaluation](https://github.com/anrei-ml/kernel-taylor-diagram) (contact <andrei.gavrilov@uv.es>)  
+  ![python](https://img.shields.io/badge/python-yellow) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  [![paper](https://img.shields.io/badge/paper-gray)](https://doi.org/10.1017/eds.2025.8) 
+
+
+- [Structual Causal Model techniques for interpreting model coupling behavior: Causal Land-Atmosphere-Ocean coupling strength](https://github.com/feinihuang9554-max/Causal-strength-for-Land-Atmosphere-Ocean-coupling.git) (contact <feini.huang@uv.es>)  
+![python](https://img.shields.io/badge/python-yellow)
+
+- [Joint XAI for nonlinear sensitivity of environmental factors to target: Cloud feedback sensitivity](https://github.com/feinihuang9554-max/Interpretable-CNN-for-nonlinear-sensitivity.git) (contact <feini.huang@uv.es>)  
+![python](https://img.shields.io/badge/python-yellow)
+
+
+### Coming soon
+- Causal model weighting and intercomparison
+- DMDc for forced response estimation in ESMs
+- HybridESMBench
+- Process-specific diagnostics for:
+    - Subtropical low-cloud feedbacks (atmosphere)
+    - Ocean heat and carbon uptake (ocean)
+    - Terrestrial water-carbon processes (land)
+
+## License
+
+Please check out License for each submodule linked in this repository.
+
+---
+
+## 📬 Contact
+
+For questions and contributions, please reach out to the [ISP at UVEG](https://isp.uv.es/):
+
+- Feini Huang  <feini.huang@uv.es>  
+- Andrei Gavrilov <andrei.gavrilov@uv.es>  
