@@ -12,3 +12,6 @@
 [submodule "Kernel_Taylor_Diagram"]
 	path = Kernel_Taylor_Diagram
 	url = https://github.com/andrei-ml/kernel-taylor-diagram
+[submodule "HybridESMBench"]
+	path = HybridESMBench
+	url = https://github.com/HybridESM/HybridESMBench

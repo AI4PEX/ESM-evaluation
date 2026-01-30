@@ -18,8 +18,11 @@ The codebase implements state-of-the-art explainable AI (XAI), causal discovery,
   ![python](https://img.shields.io/badge/python-yellow) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  [![paper](https://img.shields.io/badge/paper-gray)](https://doi.org/10.1017/eds.2025.8) 
     - [Quickstart](https://github.com/nmank/DMDc4Climate/blob/main/getting_started.ipynb) 
 
-- [Kernel Taylor Diagram for Earth System Model Evaluation](https://github.com/anrei-ml/kernel-taylor-diagram) (contact <andrei.gavrilov@uv.es>)  
+- [Kernel Taylor Diagram for Earth System Model Evaluation](https://github.com/andrei-ml/kernel-taylor-diagram) (contact <andrei.gavrilov@uv.es>)  
   ![python](https://img.shields.io/badge/python-yellow) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  [![paper](https://img.shields.io/badge/paper-gray)](https://doi.org/10.1017/eds.2025.8) 
+
+- [HybridESMBench: Benchmarking tool for hybrid ESMs](https://github.com/HybridESM/HybridESMBench)  
+  ![python](https://img.shields.io/badge/python-yellow) [![License: Apache](https://img.shields.io/badge/License-Apache-yellow.svg)](https://opensource.org/licenses/Apache-2-0) 
 
 
 - [Structual Causal Model techniques for interpreting model coupling behavior: Causal Land-Atmosphere-Ocean coupling strength](https://github.com/feinihuang9554-max/Causal-strength-for-Land-Atmosphere-Ocean-coupling.git) (contact <feini.huang@uv.es>)  
