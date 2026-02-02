@@ -3,7 +3,7 @@
 
 This repository provides machine learning-based evaluation tools for Earth System Models (ESMs), developed under WP4 of the AI4PEX project.
 
-The codebase implements state-of-the-art explainable AI (XAI), causal discovery, and data-driven interpretable analysis methods for evaluating ML-enhanced Earth system model components. It supports process-oriented assessment of model performance across atmosphere, ocean, and land domains, while enabling direct comparisons with observational datasets. These methods provide insights into ESM and observation data, facilitating rigorous diagnostics and a deeper understanding of model behavior.
+The codebase implements state-of-the-art explainable AI (XAI), causal discovery, and data-driven interpretable analysis methods for evaluating ML-enhanced ESM components. It supports process-oriented assessment of model performance across atmosphere, ocean, and land domains, while enabling direct comparisons with observational datasets. These methods provide insights into ESM and observation data, facilitating rigorous diagnostics and a deeper understanding of model behavior.
 
 ## 🚀 Getting Started
 
@@ -35,10 +35,6 @@ The codebase implements state-of-the-art explainable AI (XAI), causal discovery,
 ![python](https://img.shields.io/badge/python-yellow)
 
 
-### Coming soon
-- Causal model weighting and intercomparison
-- DMDc for forced response estimation in ESMs
-- HybridESMBench
 
 ## License
 
