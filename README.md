@@ -39,10 +39,12 @@ The codebase implements state-of-the-art explainable AI (XAI), causal discovery,
   ![python](https://img.shields.io/badge/python-yellow) [![License: Apache](https://img.shields.io/badge/License-Apache-yellow.svg)](https://opensource.org/licenses/Apache-2-0) 
 
 
-- [Structual Causal Model techniques for interpreting model coupling behavior: Causal Land-Atmosphere-Ocean coupling strength](https://github.com/feinihuang9554-max/Causal-strength-for-Land-Atmosphere-Ocean-coupling.git) (contact <feini.huang@uv.es>)  
+- [Structual Causal Model techniques for interpreting model coupling behavior: Causal Land-Atmosphere-Ocean coupling strength](https://github.com/feinihuang9554-max/Causal-strength-for-Land-Atmosphere-Ocean-coupling.git) (contact <feini.huang@uv.es>)
+- This repository provides a machine-learning and causal-inference framework to quantify land–ocean–atmosphere (LOA) coupling in the Earth system. The method integrates ML emulators, explainable AI (XAI), and structural causal models (SCMs) to move beyond correlation-based diagnostics and enable causal, process-level analysis of Earth system interactions.
 ![python](https://img.shields.io/badge/python-yellow)
 
-- [Joint XAI for nonlinear sensitivity of environmental factors to target: Cloud feedback sensitivity](https://github.com/feinihuang9554-max/Interpretable-CNN-for-nonlinear-sensitivity.git) (contact <feini.huang@uv.es>)  
+- [Joint XAI for nonlinear sensitivity of environmental factors to target: Cloud feedback sensitivity](https://github.com/feinihuang9554-max/Interpretable-CNN-for-nonlinear-sensitivity.git) (contact <feini.huang@uv.es>)
+- This repository presents a nonlinear, data-driven framework to quantify the sensitivity of shortwave cloud feedback to cloud-controlling factors (CCFs) when cloud feedback is represented using kernel-weighted cloud property histograms. The method combines convolutional neural networks (CNNs) with explainable artificial intelligence (XAI) to diagnose nonlinear, state-dependent cloud–environment interactions that cannot be captured by traditional linear regression approaches.
 ![python](https://img.shields.io/badge/python-yellow)
 
 
