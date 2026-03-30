@@ -21,3 +21,6 @@
 [submodule "DMDc_ForceSMIP"]
 	path = DMDc_ForceSMIP
 	url = https://github.com/andrei-ml/dmdc-forcesmip
+[submodule "CausalMetrics"]
+	path = CausalMetrics
+	url = https://github.com/gcampsvalls/CausalMetrics

@@ -26,26 +26,32 @@ The codebase implements state-of-the-art explainable AI (XAI), causal discovery,
 - [Dynamic Mode Decomposition with control for forced response estimation in ESMs](https://github.com/andrei-ml/DMDcForcedResponseEstimation) (contact <andrei.gavrilov@uv.es>)  
   ![python](https://img.shields.io/badge/python-yellow) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
  
-  *This repository provides the DMDc-p method for estimating forced responses in Earth system models (ESMs) as part of systematic ESM evaluation. It estimates the forced response by computing the pullback attractor of a linear non-autonomous stochastic system, with the DMDc model representing its deterministic core, assumed to approximate the underlying data-generating system. The method is compared against baseline approaches such as linear inverse models (LIM) and linear regression using large ESM ensembles.*
-
+  *This repository provides the pullback version of DMDc method for estimating forced responses in Earth system models (ESMs) as part of systematic ESM evaluation. It estimates the forced response by computing the pullback attractor of a linear non-autonomous stochastic system, with the DMDc model representing its deterministic core, assumed to approximate the underlying data-generating system. The method is compared against baseline approaches such as linear inverse models (LIM) and linear regression using large ESM ensembles.*
 
 - [DMDc variants for Forced Component Estimation Statistical Method Intercomparison](https://github.com/andrei-ml/DMDcForcedResponseEstimation) (contact <andrei.gavrilov@uv.es>)  
   ![python](https://img.shields.io/badge/python-yellow) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
   *This repository contains implementations of 3 different Dynamic Mode Decomposition with control (DMDc)–based methods for estimating the forced response from a single climate realization. These methods were applied within Tiers 2 and 3 of the [Forced Component Estimation Statistical Method Intercomparison Project (ForceSMIP)](https://sites.google.com/ethz.ch/forcesmip).*
 
+- [Causal Metrics for Model Comparison](https://github.com/gcampsvalls/CausalMetrics) (contact <andrei.gavrilov@uv.es>)  
+  ![python](https://img.shields.io/badge/python-yellow)  
+ 
+  *This repositopry provides advanced causal metrics to compare climate models more robustly. Unlike previous approaches that rely on a single metric such as the F1 score, these methods use kernel-based techniques to compare causal graphs directly in reproducing kernel Hilbert spaces.*
 
 - [HybridESMBench: Benchmarking tool for hybrid ESMs](https://github.com/HybridESM/HybridESMBench)  
   ![python](https://img.shields.io/badge/python-yellow) [![License: Apache](https://img.shields.io/badge/License-Apache-yellow.svg)](https://opensource.org/licenses/Apache-2-0) 
 
 
-- [Structual Causal Model techniques for interpreting model coupling behavior: Causal Land-Atmosphere-Ocean coupling strength](https://github.com/feinihuang9554-max/Causal-strength-for-Land-Atmosphere-Ocean-coupling.git) (contact <feini.huang@uv.es>)
-- This repository provides a machine-learning and causal-inference framework to quantify land–ocean–atmosphere (LOA) coupling in the Earth system. The method integrates ML emulators, explainable AI (XAI), and structural causal models (SCMs) to move beyond correlation-based diagnostics and enable causal, process-level analysis of Earth system interactions.
-![python](https://img.shields.io/badge/python-yellow)
+- [Structual Causal Model techniques for interpreting model coupling behavior: Causal Land-Atmosphere-Ocean coupling strength](https://github.com/feinihuang9554-max/Causal-strength-for-Land-Atmosphere-Ocean-coupling.git) (contact <feini.huang@uv.es>)  
+  ![python](https://img.shields.io/badge/python-yellow)
 
-- [Joint XAI for nonlinear sensitivity of environmental factors to target: Cloud feedback sensitivity](https://github.com/feinihuang9554-max/Interpretable-CNN-for-nonlinear-sensitivity.git) (contact <feini.huang@uv.es>)
-- This repository presents a nonlinear, data-driven framework to quantify the sensitivity of shortwave cloud feedback to cloud-controlling factors (CCFs) when cloud feedback is represented using kernel-weighted cloud property histograms. The method combines convolutional neural networks (CNNs) with explainable artificial intelligence (XAI) to diagnose nonlinear, state-dependent cloud–environment interactions that cannot be captured by traditional linear regression approaches.
-![python](https://img.shields.io/badge/python-yellow)
+  *This repository provides a machine-learning and causal-inference framework to quantify land–ocean–atmosphere (LOA) coupling in the Earth system. The method integrates ML emulators, explainable AI (XAI), and structural causal models (SCMs) to move beyond correlation-based diagnostics and enable causal, process-level analysis of Earth system interactions.*
+
+- [Joint XAI for nonlinear sensitivity of environmental factors to target: Cloud feedback sensitivity](https://github.com/feinihuang9554-max/Interpretable-CNN-for-nonlinear-sensitivity.git) (contact <feini.huang@uv.es>)  
+  ![python](https://img.shields.io/badge/python-yellow)
+
+  *This repository presents a nonlinear, data-driven framework to quantify the sensitivity of shortwave cloud feedback to cloud-controlling factors (CCFs) when cloud feedback is represented using kernel-weighted cloud property histograms. The method combines convolutional neural networks (CNNs) with explainable artificial intelligence (XAI) to diagnose nonlinear, state-dependent cloud–environment interactions that cannot be captured by traditional linear regression approaches.*
+
 
 - **Coming soon:** Causal weighting metrics for ESM evaluation
 
