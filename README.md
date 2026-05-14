@@ -36,7 +36,7 @@ The codebase implements state-of-the-art explainable AI (XAI), causal discovery,
 - [Causal Metrics for Model Comparison](https://github.com/gcampsvalls/CausalMetrics) (contact <andrei.gavrilov@uv.es>)  
   ![python](https://img.shields.io/badge/python-yellow)  
  
-  *This repositopry provides advanced causal metrics to compare climate models more robustly. Unlike previous approaches that rely on a single metric such as the F1 score, these methods use kernel-based techniques to compare causal graphs directly in reproducing kernel Hilbert spaces.*
+  *This repository provides advanced causal metrics to compare climate models more robustly. Unlike previous approaches that rely on a single metric such as the F1 score, these methods use kernel-based techniques to compare causal graphs directly in reproducing kernel Hilbert spaces.*
 
 - [HybridESMBench: Benchmarking tool for hybrid ESMs](https://github.com/HybridESM/HybridESMBench)  
   ![python](https://img.shields.io/badge/python-yellow) [![License: Apache](https://img.shields.io/badge/License-Apache-yellow.svg)](https://opensource.org/licenses/Apache-2-0) 
@@ -52,8 +52,6 @@ The codebase implements state-of-the-art explainable AI (XAI), causal discovery,
 
   *This repository presents a nonlinear, data-driven framework to quantify the sensitivity of shortwave cloud feedback to cloud-controlling factors (CCFs) when cloud feedback is represented using kernel-weighted cloud property histograms. The method combines convolutional neural networks (CNNs) with explainable artificial intelligence (XAI) to diagnose nonlinear, state-dependent cloud–environment interactions that cannot be captured by traditional linear regression approaches.*
 
-
-- **Coming soon:** Causal weighting metrics for ESM evaluation
 
 
 
