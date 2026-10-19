@@ -21,3 +21,6 @@
 [submodule "DMDc_ForceSMIP"]
 	path = DMDc_ForceSMIP
 	url = https://github.com/andrei-ml/dmdc-forcesmip
+[submodule "Causal_Model_Weighting"]
+	path = Causal_Model_Weighting
+	url = https://github.com/vdeltatto/climwip-crps
