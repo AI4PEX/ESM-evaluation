@@ -33,10 +33,8 @@ The codebase implements state-of-the-art explainable AI (XAI), causal discovery,
 
   *This repository contains implementations of 3 different Dynamic Mode Decomposition with control (DMDc)–based methods for estimating the forced response from a single climate realization. These methods were applied within Tiers 2 and 3 of the [Forced Component Estimation Statistical Method Intercomparison Project (ForceSMIP)](https://sites.google.com/ethz.ch/forcesmip).*
 
-- [Causal Metrics for Model Comparison](https://github.com/gcampsvalls/CausalMetrics) (contact <andrei.gavrilov@uv.es>)  
+- [Causal Model Weighting](https://github.com/vdeltatto/climwip-crps) (contact <andrei.gavrilov@uv.es>)  
   ![python](https://img.shields.io/badge/python-yellow)  
- 
-  *This repository provides advanced causal metrics to compare climate models more robustly. Unlike previous approaches that rely on a single metric such as the F1 score, these methods use kernel-based techniques to compare causal graphs directly in reproducing kernel Hilbert spaces.*
 
 - [HybridESMBench: Benchmarking tool for hybrid ESMs](https://github.com/HybridESM/HybridESMBench)  
   ![python](https://img.shields.io/badge/python-yellow) [![License: Apache](https://img.shields.io/badge/License-Apache-yellow.svg)](https://opensource.org/licenses/Apache-2-0) 
