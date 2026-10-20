@@ -21,3 +21,6 @@
 [submodule "Causal_Model_Weighting"]
 	path = Causal_Model_Weighting
 	url = https://github.com/vdeltatto/climwip-crps
+[submodule "PullbackDMDc"]
+	path = PullbackDMDc
+	url = https://github.com/IPL-UV/PullbackDMDc
