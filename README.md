@@ -47,6 +47,9 @@ The codebase implements state-of-the-art explainable AI (XAI), causal discovery,
 - [Joint XAI for nonlinear sensitivity of environmental factors to target: Cloud feedback sensitivity](https://github.com/feinihuang9554-max/Interpretable-CNN-for-nonlinear-sensitivity.git) (contact <feini.huang@uv.es>)  
   ![python](https://img.shields.io/badge/python-yellow)
 
+- [RF-SHAP diagnostics for ESM evaluation with ESMValTool](https://github.com/feinihuang9554-max/RF_SHAP_ESMValTool) (contact <feini.huang@uv.es>)  
+  ![python](https://img.shields.io/badge/python-yellow)
+
   *This repository presents a nonlinear, data-driven framework to quantify the sensitivity of shortwave cloud feedback to cloud-controlling factors (CCFs) when cloud feedback is represented using kernel-weighted cloud property histograms. The method combines convolutional neural networks (CNNs) with explainable artificial intelligence (XAI) to diagnose nonlinear, state-dependent cloud–environment interactions that cannot be captured by traditional linear regression approaches.*
 
 
