@@ -52,6 +52,11 @@ The codebase implements state-of-the-art explainable AI (XAI), causal discovery,
 
   *This repository presents a nonlinear, data-driven framework to quantify the sensitivity of shortwave cloud feedback to cloud-controlling factors (CCFs) when cloud feedback is represented using kernel-weighted cloud property histograms. The method combines convolutional neural networks (CNNs) with explainable artificial intelligence (XAI) to diagnose nonlinear, state-dependent cloud–environment interactions that cannot be captured by traditional linear regression approaches.*
 
+- [Structural causal-model diagnosis of lagged vegetation–VPD feedback](https://github.com/feinihuang9554-max/Structural-Causal-Model-diagnosis-of-lagging-effect-of-vegetation-s-feedback) (contact <feini.huang@uv.es>)  
+  ![python](https://img.shields.io/badge/python-yellow)
+
+  *This repository diagnoses the lagged feedback of vegetation on vapour-pressure deficit (VPD). Pixel-level residual-attention LSTMs and structural causal models separate the total, direct, and precipitation-mediated effects of land-surface drivers (LAI, soil moisture, and surface temperature) at monthly lags.*
+
 
 
 

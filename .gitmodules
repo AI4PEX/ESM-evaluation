@@ -27,3 +27,6 @@
 [submodule "RF_SHAP_ESMValTool"]
 	path = RF_SHAP_ESMValTool
 	url = https://github.com/feinihuang9554-max/RF_SHAP_ESMValTool.git
+[submodule "SCM_Lagged_Vegetation_Feedback"]
+	path = SCM_Lagged_Vegetation_Feedback
+	url = https://github.com/feinihuang9554-max/Structural-Causal-Model-diagnosis-of-lagging-effect-of-vegetation-s-feedback.git
