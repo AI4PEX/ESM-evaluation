@@ -57,6 +57,11 @@ The codebase implements state-of-the-art explainable AI (XAI), causal discovery,
 
   *This repository diagnoses the lagged feedback of vegetation on vapour-pressure deficit (VPD). Pixel-level residual-attention LSTMs and structural causal models separate the total, direct, and precipitation-mediated effects of land-surface drivers (LAI, soil moisture, and surface temperature) at monthly lags.*
 
+- [XAI-driven error diagnostic framework for tree mortality models](https://github.com/feinihuang9554-max/XAI-Driven-Error-Diagnostic-Framework-for-Tree-Mortality-Models-) (contact <feini.huang@uv.es>)  
+  ![python](https://img.shields.io/badge/python-yellow)
+
+  *This repository diagnoses tree-mortality model failures by modeling the residual (observation minus prediction). Random forests capture nonlinear error patterns, and SHAP, PDP, and ICE plots attribute systematic bias to climate drivers, physical thresholds, and compound stresses such as drought.*
+
 
 
 

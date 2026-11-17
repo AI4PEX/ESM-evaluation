@@ -30,3 +30,6 @@
 [submodule "SCM_Lagged_Vegetation_Feedback"]
 	path = SCM_Lagged_Vegetation_Feedback
 	url = https://github.com/feinihuang9554-max/Structural-Causal-Model-diagnosis-of-lagging-effect-of-vegetation-s-feedback.git
+[submodule "XAI_Tree_Mortality_Diagnostics"]
+	path = XAI_Tree_Mortality_Diagnostics
+	url = https://github.com/feinihuang9554-max/XAI-Driven-Error-Diagnostic-Framework-for-Tree-Mortality-Models-.git
